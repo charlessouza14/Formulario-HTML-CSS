@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 13%;
+    width: 350px;
+    height: 200px;
+
+}
+
+.grupo {
+    padding: 50px;
+}
+
+.campo {
+    padding: 4px;
+    margin-left: 13%;
+}
+
+#titulo {
+    margin-left: 13%;
+    margin-bottom: 6%;
+}
+
+.checkbox {
+    padding: 4px;
+    margin-left: 13%;
+    margin-top: 8px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.marcar {
+    margin-left: 5px;
+}
+
+.finalizacao {
+    color: red;
+    margin-left: 20%;
+}

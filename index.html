@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+
+    <form action="bancodedados.html" method="post">
+
+        <fieldset class="grupo">
+            <div>
+                <h1 id="titulo">Inscreva-se!</h1>
+                <br>
+            </div>
+            <div>
+                <div class="campo">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome" requered minlength="2" />
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" required minlength="2" />
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="endereço de e-mail" />
+                </div>
+                <div class="campo">
+                    <label for="senha">Senha</label><br>
+                    <input type="password" name="senha" id="senha" required />
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="teste" /><label for="teste" class="marcar">Junte-se à
+                        Comunidade</label><br>
+                    <button>Enviar</button>
+                </div>
+                <br><br><br>
+                <label type="text" class="finalizacao">Obrigado pelo envio!</label>
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
